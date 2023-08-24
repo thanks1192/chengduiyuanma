@@ -1,0 +1,52 @@
+<?php
+
+return [
+    'name' => 'usdt',
+    'beian' => '',
+    'cdnurl' => '',
+    'version' => '1.0.1',
+    'timezone' => 'Asia/Shanghai',
+    'forbiddenip' => '',
+    'languages' => [
+        'backend' => 'zh-cn',
+        'frontend' => 'zh-cn',
+    ],
+    'fixedpage' => 'dashboard',
+    'categorytype' => [
+        'default' => 'Default',
+        'page' => 'Page',
+        'article' => 'Article',
+        'test' => 'Test',
+    ],
+    'configgroup' => [
+        'basic' => 'Basic',
+        'money' => 'Money',
+        'email' => 'Email',
+    ],
+    'mail_type' => '1',
+    'mail_smtp_host' => 'smtp.163.com',
+    'mail_smtp_port' => '465',
+    'mail_smtp_user' => '',
+    'mail_smtp_pass' => 'FMFUVEYHCGSXMEOS',
+    'mail_verify_type' => '2',
+    'mail_from' => '',
+    'address' => '平台收币地址：<br/>【BTC仅支持Bitcoin资产】32eGRXtBGvgmijqiRrhxjYmQxHMVdZTJgd<br/>【USDT- TRC20】TNr7ZGnS4u2FGtu1wvEG5jW2tCeMFGHMbE',
+    'sell_money' => '6.5',
+    'buy_money' => '6.56',
+    'bank_account' => '18812345678',
+    'bank_card' => '8888888888888888888888',
+    'bank_branch' => '8888888888888888888888',
+    'kf_tg' => 't.me/opldbi',
+    'email' => '1330600100@qq.com',
+    'desc_top' => '好u支付，致力于打造领先的匿名支付第三方支付平台，以代理、以代购支付信用卡还款等产品满足广大用户匿名支付需求',
+    'desc_center' => '',
+    'desc_bottom' => '<p>流程： A、填写表单 B、向平台收币地址转入您在表单中填写的要出售的USDT数量 C、平台在核实后会在5分钟内向您提供的账户回款。 注意：如30分钟未收到回款请联系客服 t.me/opldbi</p>',
+    'buy_money_array' => [
+        1000 => '7.5',
+        '0_1000' => '7.6',
+    ],
+    'sell_money_array' => [
+        1000 => '6.5',
+        '0_1000' => '6.4',
+    ],
+];

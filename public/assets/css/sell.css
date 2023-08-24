@@ -1,0 +1,89 @@
+body {
+    background: #f0f0f0;
+}
+#form1 {
+    max-width: 800px;
+    background: #fff;
+    margin: 0 auto !important;
+}
+
+#toptitle {
+    background-color: rgba(255,255,255,0.9);
+    padding: 26px 0 12px;
+    width: 100%;
+    color: #1ea0fa;
+    text-align: center;
+}
+
+.formfield {
+    display: block;
+    padding:10px 0 26px;
+    margin: 0 10px 16px;
+    clear: both;
+    border-bottom: 1px dashed #ccc;
+}
+
+span.description {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.divContent {
+    background: #fff;
+    padding: 0 50px 50px 50px;
+}
+
+.field {
+    clear: both;
+    padding: 10px 14px;
+    margin: 10px 6px;
+    border: 1px solid transparent;
+}
+
+.field-label {
+    position: relative;
+    font-size: 16px !important;
+    font-weight: bold;
+    padding: 0 0 8px 0 !important;
+    display: block;
+    word-wrap: break-word;
+    /* overflow: hidden; */
+}
+span.req {
+    position: absolute;
+    top: 0;
+    left: -12px;
+    color: red !important;
+    margin: 2px 0 0 2px;
+}
+
+.ui-controlgroup {
+    margin: 5px 0;
+    padding: 0;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+}
+
+.ui-controlgroup .layui-form-item {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 10px 8px;
+    margin: 0;
+}
+
+.ui-controlgroup .layui-form-item:last-child {
+    border-bottom: 0;
+}
+
+.ui-controlgroup .layui-form-item .layui-form-label {
+    width: auto;
+    text-align: left;
+    padding: 9px 0;
+    font-size: 16px;
+}
+
+@media (max-width: 750px) {
+    .divContent {
+        background: #fff;
+        padding: 0 10px 50px 10px;
+    }
+}
